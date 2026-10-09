@@ -10,3 +10,15 @@ menuBtn.addEventListener("click", function(){
         nav.style.display="none"
     }
 })
+const form = document.querySelector("#contactForm");
+const successMessage = document.querySelector("#successMessage");
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    if (form.checkValidity()) {
+        successMessage.hidden = false;
+        form.reset();
+    }
+});
+
