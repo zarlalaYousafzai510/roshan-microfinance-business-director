@@ -1,30 +1,22 @@
 # Roshan Microfinance Business Directory
 
-A responsive business directory landing page created for my Full Stack Development internship.
+## About
+A responsive landing page for finding local businesses.
 
-## What I Made
-
-- Responsive landing page
-- Navigation bar
-- Mobile hamburger menu
-- Hero section
-- Responsive image
-- Mobile and desktop layout
+## Features
+- Mobile navigation menu
+- Contact form with name, email, and message
+- Form validation
+- Success message after submission
+- Responsive design
 
 ## Technologies
-
 - HTML
 - CSS
 - JavaScript
 
-## Project Purpose
+## How to Run
+Open `index.html` in your browser.
 
-The website is designed to help users discover local businesses and services.
-
-## Task
-
-Task 1 – Front-End Foundations
-
-## Status
-
-Completed
+## Limitation
+The form does not send messages to a server.
