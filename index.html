@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan Microfinance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+         <h1>Roshan Microfinance</h1>
+         <button class="menu-btn">☰</button>
+         <nav>
+           <a href="#hero">Home</a>
+           <a href="listings.html">Businesses</a>
+           <a href="#contact">Contact</a>
+         </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <h1>Discover Local Businesses Near You</h1>
+            <p>Find trusted local businesses and services in your community with Roshan Microfinance.</p>
+            <img src="images/images (1).jpg" alt="local business"><br>
+            <a href="listings.html">Explore Businesses</a>
+        </section>
+        <section id="contact">
+           <form id="contactForm">
+             <h2>Contact Us</h2>
+             <p>Have a question? Send us a message.</p>
+    
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required><br>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea><br>
+              <button type="submit">Send Message</button>
+              <p id="successMessage" hidden>Message sent</p>
+           </form>
+       
+        </section>
+    </main>
+  <script src="script.js"></script>    
+</body>
+</html>

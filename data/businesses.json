@@ -1,0 +1,36 @@
+[
+{
+  "name": "Sunrise Bakery",
+  "category": "Bakery",
+  "rating": 4.5,
+  "description": "Fresh bread and cakes made daily."
+}
+,
+{
+    "name": "City Grocery" ,
+    "category": "Grocery Store" ,
+    "rating" : 4.2,
+    "description" : "Sells everyday groceries and household essentials."
+}
+,
+{
+     "name" :"Fashion House" ,
+     "category" : "Clothing" ,
+     "rating" : 4.7 ,
+     "description": "Offers affordable clothing for different occasions"
+}
+,
+{
+    "name" : "Quick Fix Repairs" ,
+    "category" : "Repair Service" ,
+    "rating" : 4.0 ,
+    "description" : "Provides basic mobile phone and electronics repairs."
+}
+,
+{
+    "name" : "Royal Restaurant" ,
+    "category" : "Restaurant" ,
+    "rating" : 4.5 ,
+    "description" : "Serves local dishes and freshly prepared meals."
+}
+]
