@@ -1,22 +1,33 @@
 # Roshan Microfinance Business Directory
 
 ## About
-A responsive landing page for finding local businesses.
+A responsive website that helps users explore local businesses.
 
 ## Features
+- Responsive landing page
 - Mobile navigation menu
-- Contact form with name, email, and message
-- Form validation
-- Success message after submission
-- Responsive design
+- Contact form with validation
+- Success message after form submission
+- Business listings with sample data
+- Business cards generated using JavaScript
 
 ## Technologies
 - HTML
 - CSS
 - JavaScript
+- JSON
+
+## Project Structure
+- `index.html` – Landing page
+- `listings.html` – Business listings page
+- `style.css` – Website styling
+- `script.js` – Navigation and contact form functionality
+- `listings.js` – Business listings functionality
+- `data/businesses.json` – Sample business data
+- `images/` – Website images
 
 ## How to Run
-Open `index.html` in your browser.
+Open the project in VS Code and use Live Server to run the website.
 
 ## Limitation
-The form does not send messages to a server.
+The contact form displays a success message but does not send messages to a server.
