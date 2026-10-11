@@ -1,12 +1,11 @@
-
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.querySelector("nav");
 
 menuBtn.addEventListener("click", function () {
-    if (nav.style.display === "none") {
-        nav.style.display = "flex";
-    } else {
+    if (nav.style.display === "flex") {
         nav.style.display = "none";
+    } else {
+        nav.style.display = "flex";
     }
 });
 
