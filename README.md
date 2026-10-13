@@ -1,33 +1,17 @@
 # Roshan Microfinance Business Directory
 
-## About
-A responsive website that helps users explore local businesses.
+## Overview
+A responsive business directory website built using HTML, CSS, and JavaScript. Includes a landing page, contact form, and business listings loaded from a local JSON file.
 
-## Features
-- Responsive landing page
-- Mobile navigation menu
-- Contact form with validation
-- Success message after form submission
-- Business listings with sample data
-- Business cards generated using JavaScript
+## Local Setup
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Ensure the JSON data file and other project files remain in their original folders.
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
-- JSON
+## Deployment
+Live Website: https://roshan-microfinance-business-director.netlify.app/
 
-## Project Structure
-- `index.html` – Landing page
-- `listings.html` – Business listings page
-- `style.css` – Website styling
-- `script.js` – Navigation and contact form functionality
-- `listings.js` – Business listings functionality
-- `data/businesses.json` – Sample business data
-- `images/` – Website images
+Deployed using Netlify connected to GitHub.
 
-## How to Run
-Open the project in VS Code and use Live Server to run the website.
-
-## Limitation
-The contact form displays a success message but does not send messages to a server.
+## Client Handover
+The project includes a responsive landing page, contact form validation, dynamic business listings, and error handling. Source code is available in this public GitHub repository.
